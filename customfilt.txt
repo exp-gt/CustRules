@@ -1,0 +1,71 @@
+! Title: Custom Rules
+! Expires: 7 days
+
+! Youtube Distractions
+! Sign in
+m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com##.mobile-topbar-header-content > ytm-menu
+youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
+! Header
+m.youtube.com##ytm-topbar-menu-button-renderer
+! Bottom slide
+m.youtube.com##.pivot-bar-slide-in
+! Left side
+youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+
+! Homepage
+youtube.com##[page-subtype="home"] .grid-disabled.grid.ytd-browse.style-scope > .ytd-two-column-browse-results-renderer.style-scope
+m.youtube.com##[tab-identifier="FEwhat_to_watch"]
+
+! Up next
+m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! bottom bar
+youtube.com##ytm-pivot-bar-renderer
+
+! End Card
+youtube.com##.ytm-player-endscreen
+youtube.com##.ytp-ce-element
+/endscreen.js$script,xhr,important,domain=youtube.com
+
+! Caption Button
+m.youtube.com##yt-closed-captions-toggle-button
+youtube.com##.ytp-button.ytp-subtitles-button
+
+! Channel Logo
+youtube.com##.ytp-button.branding-img-container
+
+! Shorts
+! Main page
+youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+m.youtube.com##.rich-section-content
+! Trending page
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+! Search/Trending page (Android)
+youtube.com##ytm-reel-shelf-renderer
+youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
+youtube.com##ytm-media-item:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
+! side shorts
+youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
+! shorts icons
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+
+! Google login dialogs
+!||accounts.google.com/gsi/*$xhr,script,3p
+
+
+!Params
+*$removeparam=ref
+*$removeparam=pp
+*$removeparam=fbs
+*$removeparam=sca_upv
+*$removeparam=dpr
+*$removeparam=ct
+*$removeparam=oi
+*$removeparam=iflsig
+*$removeparam=qloc
+*$removeparam=wtsid
