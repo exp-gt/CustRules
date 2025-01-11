@@ -33,6 +33,13 @@ youtube.com##.ytp-ce-element
 m.youtube.com##yt-closed-captions-toggle-button
 youtube.com##.ytp-button.ytp-subtitles-button
 
+! Autoplay
+m.youtube.com##.ytwPlayerAutonavToggleHost
+! Voice Search
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+m.youtube.com##.icon-microphone_on.mobile-topbar-header-voice-search-button
+youtube.com###voice-search-button
+
 ! Channel Logo
 youtube.com##.ytp-button.branding-img-container
 
