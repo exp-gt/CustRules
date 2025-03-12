@@ -24,6 +24,9 @@ youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-sco
 ! bottom bar
 youtube.com##ytm-pivot-bar-renderer
 
+! End Card
+youtube.com##.ytp-endscreen-content
+
 ! Caption Button
 m.youtube.com##yt-closed-captions-toggle-button
 youtube.com##.ytp-button.ytp-subtitles-button
