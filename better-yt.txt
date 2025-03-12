@@ -24,11 +24,6 @@ youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-sco
 ! bottom bar
 youtube.com##ytm-pivot-bar-renderer
 
-! End Card
-youtube.com##.ytm-player-endscreen
-youtube.com##.ytp-ce-element
-/endscreen.js$script,xhr,important,domain=youtube.com
-
 ! Caption Button
 m.youtube.com##yt-closed-captions-toggle-button
 youtube.com##.ytp-button.ytp-subtitles-button
@@ -42,3 +37,21 @@ youtube.com###voice-search-button
 
 ! Channel Logo
 youtube.com##.ytp-button.branding-img-container
+
+! Shorts
+! Main page
+youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+m.youtube.com##.rich-section-content
+! Trending page
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+! Search/Trending page (Android)
+youtube.com##ytm-reel-shelf-renderer
+youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
+youtube.com##ytm-media-item:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
+! side shorts
+youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
+! shorts icons
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
