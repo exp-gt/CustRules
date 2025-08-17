@@ -1,3 +1,6 @@
+! Title: Personal Filters
+! Expires: 7 days
+
 ! YouTube
 ! Sign in
 !youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-butto
