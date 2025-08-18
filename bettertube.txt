@@ -1,14 +1,16 @@
 ! Title: BetterTube
 ! Expires: 7 days
 
-! Youtube Distractions
 ! Sign in
 m.youtube.com##.mobile-topbar-header-sign-in-button
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
+
 ! Header
 m.youtube.com##ytm-topbar-menu-button-renderer
+
 ! Bottom slide
 m.youtube.com##.pivot-bar-slide-in
+
 ! Left side
 youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
