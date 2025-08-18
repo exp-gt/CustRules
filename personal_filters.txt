@@ -1,3 +1,6 @@
+! Title: Personal Filters
+! Expires: 7 days
+
 ! facebook (bypass signin for desktop)
 facebook.com##+js(trusted-click-element, body > div[id^="mount"] #scrollview ~ div div[role="button"]:has(> div[data-visualcompletion="ignore"]) )
 facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
