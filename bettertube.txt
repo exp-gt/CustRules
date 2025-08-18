@@ -34,6 +34,8 @@ youtube.com##.ytp-button.ytp-subtitles-button
 
 ! Autoplay Button
 m.youtube.com##.ytwPlayerAutonavToggleHost
+youtube.com##.ytp-autonav-toggle.ytp-button
+
 ! Voice Search Button
 m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
 m.youtube.com##.icon-microphone_on.mobile-topbar-header-voice-search-button
