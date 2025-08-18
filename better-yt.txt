@@ -4,7 +4,6 @@
 ! Youtube Distractions
 ! Sign in
 m.youtube.com##.mobile-topbar-header-sign-in-button
-m.youtube.com##.mobile-topbar-header-content > ytm-menu
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope > yt-button-shape
 ! Header
 m.youtube.com##ytm-topbar-menu-button-renderer
@@ -14,15 +13,15 @@ m.youtube.com##.pivot-bar-slide-in
 youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
 ! Homepage
-youtube.com##[page-subtype="home"] .grid-disabled.grid.ytd-browse.style-scope > .ytd-two-column-browse-results-renderer.style-scope
 m.youtube.com##[tab-identifier="FEwhat_to_watch"]
+youtube.com##[page-subtype="home"] .grid-disabled.grid.ytd-browse.style-scope > .ytd-two-column-browse-results-renderer.style-scope
 
 ! Up next
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
 ! bottom bar
-youtube.com##ytm-pivot-bar-renderer
+!youtube.com##ytm-pivot-bar-renderer
 
 ! End Card
 youtube.com##.ytp-endscreen-content
@@ -31,9 +30,9 @@ youtube.com##.ytp-endscreen-content
 m.youtube.com##yt-closed-captions-toggle-button
 youtube.com##.ytp-button.ytp-subtitles-button
 
-! Autoplay
+! Autoplay Button
 m.youtube.com##.ytwPlayerAutonavToggleHost
-! Voice Search
+! Voice Search Button
 m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
 m.youtube.com##.icon-microphone_on.mobile-topbar-header-voice-search-button
 youtube.com###voice-search-button
@@ -41,7 +40,7 @@ youtube.com###voice-search-button
 ! Channel Logo
 youtube.com##.ytp-button.branding-img-container
 
-! Shorts
+! Shorts (from brave)
 ! Main page
 youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
 m.youtube.com##.rich-section-content
@@ -55,6 +54,10 @@ youtube.com##ytd-rich-shelf-renderer[is-shorts]
 youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
 ! side shorts
 youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
-! shorts icons
+! shorts icons (desktop and mobile)
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+! Updated rules
+youtube.com##.ytGridShelfViewModelHost:has-text(Shorts)
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
