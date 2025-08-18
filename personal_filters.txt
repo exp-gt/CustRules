@@ -2,10 +2,8 @@
 ! Expires: 7 days
 
 ! facebook (bypass signin for desktop)
-facebook.com##+js(trusted-click-element, body > div[id^="mount"] #scrollview ~ div div[role="button"]:has(> div[data-visualcompletion="ignore"]) )
 facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
 facebook.com##+js(aeld, scroll)
-facebook.com##body > div[class*="__fb-light-mode"]
 
 ! teams (offer to unmute mic)
 teams.microsoft.com##.fgvh96e.fv3zam.f5pocdt.f1lv1r8n.f122n59.f22iagw.___ukc73r0.vdi-occlusion.fui-Flex
@@ -21,9 +19,6 @@ sofascore.com##.lg\:d_none.md\:d_none.d_block
 deepseek.com##.a1e75851
 deepseek.com##._41b9122
 deepseek.com##.f0d4f23d.a7f3a288 > .ds-icon
-
-! qwen
-chat.qwen.ai##.h-\[2rem\].w-\[2rem\].rounded-full.object-cover
 
 ! chatgpt
 chatgpt.com##.rtl\:translate-x-1\/2.ltr\:-translate-x-1\/2.start-1\/2.absolute
