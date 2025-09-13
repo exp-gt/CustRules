@@ -6,8 +6,7 @@ facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[dat
 facebook.com##+js(aeld, scroll)
 
 ! teams (offer to unmute mic)
-teams.microsoft.com##.fgvh96e.fv3zam.f5pocdt.f1lv1r8n.f122n59.f22iagw.___ukc73r0.vdi-occlusion.fui-Flex
-teams.microsoft.com##.f1r8xq1f.fv7zp.fgianc9.f7o03ib.fdhnlf0.f9c0r2i.f10pi13n.fjmdgho.f1g2edtw.f1vgc2s3.f1sdfohr.f11d4kpn.f1yab3r1.f1a3p1vp.f1kijzfu.fzdk1qg.f1dmdbja.f1vx9l62.f22iagw.___1rwpjsz.vdi-occlusion.fui-Flex
+teams.microsoft.com##.f8c585h.fdhnlf0.ffvuocu.f1euv43f.fpjto39.f3ev47i.f1ktbn1t.f1vx9l62.f22iagw.___p2lnz80.fui-Flex
 
 ! startpage
 startpage.com##.css-x550lw.mobile-app-promo-banner
