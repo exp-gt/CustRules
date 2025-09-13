@@ -15,10 +15,7 @@ startpage.com##.css-x550lw.mobile-app-promo-banner
 ! sofascore
 sofascore.com##.lg\:d_none.md\:d_none.d_block
 
-! deepseek
-deepseek.com##.a1e75851
-deepseek.com##._41b9122
-deepseek.com##.f0d4f23d.a7f3a288 > .ds-icon
-
-! chatgpt
+! chatgpt upgrade to plus
 chatgpt.com##.rtl\:translate-x-1\/2.ltr\:-translate-x-1\/2.start-1\/2.absolute
+chatgpt.com##.motion-safe\:delay-\[175ms\].opacity-100.motion-safe\:ease-out.motion-safe\:duration-200.motion-safe\:transition-opacity.gap-1\.5.hoverable.__menu-item.group
+chatgpt.com###radix-«Rsldct9a4mj5» > .text-token-text-tertiary.trailing
