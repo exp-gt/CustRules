@@ -4,6 +4,7 @@
 ! facebook (bypass signin for desktop)
 facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
 facebook.com##+js(aeld, scroll)
+facebook.com##body > div[class*="__fb-light-mode"] 
 
 ! teams (offer to unmute mic)
 teams.microsoft.com##.f8c585h.fdhnlf0.ffvuocu.f1euv43f.fpjto39.f3ev47i.f1ktbn1t.f1vx9l62.f22iagw.___p2lnz80.fui-Flex
