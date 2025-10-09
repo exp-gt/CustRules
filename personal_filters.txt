@@ -16,7 +16,12 @@ startpage.com##.css-x550lw.mobile-app-promo-banner
 sofascore.com##.lg\:d_none.md\:d_none.d_block
 
 ! chatgpt upgrade to plus
-chatgpt.com##.sm\:flex.pt-8.justify-center.hidden > .relative
-chatgpt.com##.p-0.rounded-full.self-center.justify-center.items-center.w-8.min-h-0.h-8.flex.mx-2\.5.motion-safe\:delay-\[175ms\].opacity-100.motion-safe\:ease-out.motion-safe\:duration-200.motion-safe\:transition-opacity.gap-1\.5.hoverable.__menu-item.group
-chatgpt.com##.motion-safe\:ease-out.motion-safe\:duration-150.motion-safe\:transition-shadow.sm\:group-data-scrolled-from-end\/scrollport\:shadow-\[0_-20px_40px_rgba\(0\,0\,0\,0\.08\)\].group-data-scrolled-from-end\/scrollport\:shadow-\[0_-20px_40px_rgba\(0\,0\,0\,0\.04\)\].backdrop-blur-sm.sm\:backdrop-blur-0.sm\:bg-transparent.bg-white\/80.rounded-t-2xl.relative.sm\:bg-primary
+chatgpt.com##.motion-safe\:delay-\[175ms\].opacity-100.motion-safe\:ease-out.motion-safe\:duration-200.motion-safe\:transition-opacity.gap-1\.5.hoverable.__menu-item.group
+chatgpt.com##.rtl\:translate-x-1\/2.ltr\:-translate-x-1\/2.gap-2.items-center.flex-col.flex.start-1\/2.absolute
+chatgpt.com###radix-_R_4illkl5i4mj5_ > .text-token-text-tertiary.trailing
 
+! whatsaap web ai button
+web.whatsapp.com##div.xjpr12u.xr9ek0c.x13i9f1t.x1277o0a.xj21bgg.xum4auv.x1143rjc.x1ekkm8c.xhgddhk.x1vqgdyp.x100vrsf.x1cy8zhl.x1q0g3np.x1nhvcw1.x2lwn1j.xeuugli.x12fk4p8.x1oa3qoh.xozqiw3.x78zum5.x1g77sc7.xdl72j9.xs83m0k.x1c4vz4f:nth-of-type(5)
+
+! gemini ui unwanted elements
+gemini.google.com##.ng-star-inserted.ng-trigger-jumpstarterEntryAnimation.ng-trigger
