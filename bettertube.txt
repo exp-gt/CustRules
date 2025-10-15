@@ -65,3 +65,13 @@ youtube.com##.yt-simple-endpoint[title="Shorts"]
 youtube.com##.ytGridShelfViewModelHost:has-text(Shorts)
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
+
+
+!--------------------------------------------------------------------------------------------------------------
+
+
+! Extra filters
+! facebook (bypass signin for desktop)
+facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
+facebook.com##+js(aeld, scroll)
+facebook.com##body > div[class*="__fb-light-mode"]
